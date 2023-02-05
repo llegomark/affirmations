@@ -132,20 +132,17 @@ const Home: NextPage = () => {
       <main className="sm:mt-15 mt-12 flex flex-1 flex-col items-center justify-center px-4 text-center">
         <h2 className="mx-auto max-w-4xl text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
           <Balancer>
-            Find Happiness and Fulfillment through the{" "}
+            Boost Your Confidence and Happiness with{" "}
             <span className="relative whitespace-nowrap text-[#3290EE]">
               <SquigglyLines />
-              <span className="relative">Art of Affirmation</span>
+              <span className="relative">Affirmations</span>
             </span>
           </Balancer>
         </h2>
         <p className="mx-auto mt-12 max-w-xl text-lg leading-7 text-slate-900">
           <Balancer>
-            Transform Your Life with{" "}
-            <span className="font-bold">
-              BetterSelf's AI-Powered Words of Affirmation.
-            </span>{" "}
-            Unleash the Power of Positive Words and Enhance Your Life Today.
+            Transform Your Life with Positive Words: Uplift with{" "}
+            <span className="font-bold">Betterself's Affirmation Site.</span>{" "}
           </Balancer>
         </p>
         <div className="max-w-xl w-full px-6">
@@ -153,9 +150,7 @@ const Home: NextPage = () => {
             <span className="text-white bg-black rounded-full w-8 h-8 text-center flex items-center justify-center">
               1
             </span>
-            <p className="ml-3 text-left text-base">
-              Enter your message for personalized words of affirmation.
-            </p>
+            <p className="ml-3 text-left text-base">Type your message here.</p>
           </div>
           <textarea
             value={verse}
@@ -176,7 +171,7 @@ const Home: NextPage = () => {
               2
             </span>
             <p className="ml-3 text-left text-base">
-              Choose the one that resonates the most.
+              Select the most relevant option.
             </p>
           </div>
           <div className="block mt-3">
