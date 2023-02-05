@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   const router = useRouter();
   useEffect(() => {}, []);
 
-  const prompt = `Respected OpenAI, as a language expert, I implore your assistance in composing 3 rich and thorough words of affirmation, write a minimum of 30 words each based on the following message: ${verse}. Clearly labeled "1." and "2." and "3.". Please tailored your language prowess in the ${bible} category. ${
+  const prompt = `Respected OpenAI, as a language expert, I request your help in creating three human-like well-written and comprehensive affirmations, each consisting of at least 30 words. Please use your language skills to write affirmations based on the following message: ${verse}, and label each affirmation as "1.", "2.", and "3.". Please use your language skills to write in a way that is natural and free of any artificial tone, while also tailoring the affirmations to the ${bible} category. ${
     verse.slice(-1) === "." ? "" : "."
   }`;
 
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               1
             </span>
             <p className="ml-3 text-left text-base">
-              Enter Your Message for Personalized Words of Affirmation
+              Enter your message for personalized words of affirmation.
             </p>
           </div>
           <textarea
@@ -175,7 +175,7 @@ const Home: NextPage = () => {
               2
             </span>
             <p className="ml-3 text-left text-base">
-              Choose the One That Resonates the Most
+              Choose the one that resonates the most.
             </p>
           </div>
           <div className="block mt-3">
