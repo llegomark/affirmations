@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   const router = useRouter();
   useEffect(() => {}, []);
 
-  const prompt = `Respected OpenAI, as a language expert, I implore your assistance in composing 3 rich and thorough words of affirmation, write a minimum of 30 words each based on the following message: ${verse}. Clearly labeled "1." and "2." and "3.". Please tailord your language prowess in the ${bible} category would be greatly valued. ${
+  const prompt = `Respected OpenAI, as a language expert, I implore your assistance in composing 3 rich and thorough words of affirmation, write a minimum of 30 words each based on the following message: ${verse}. Clearly labeled "1." and "2." and "3.". Please tailored your language prowess in the ${bible} category. ${
     verse.slice(-1) === "." ? "" : "."
   }`;
 
@@ -175,7 +175,7 @@ const Home: NextPage = () => {
               2
             </span>
             <p className="ml-3 text-left text-base">
-              Choose the One That Resonates the Most.
+              Choose the One That Resonates the Most
             </p>
           </div>
           <div className="block mt-3">
@@ -231,7 +231,7 @@ const Home: NextPage = () => {
                               navigator.clipboard.writeText(
                                 `${trimmedVerse} (generated from https://bible.betterself.app/)`
                               );
-                              toast("Word of God Copied to Clipboard", {
+                              toast("Words of Affirmation Copied!", {
                                 icon: "✂️",
                               });
                             }}
