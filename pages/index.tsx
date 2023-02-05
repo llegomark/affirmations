@@ -45,7 +45,6 @@ const Home: NextPage = () => {
     case "Confidence":
     case "Resilience":
     case "Success":
-    case "Positivity":
     case "Leadership":
     case "Inspiration":
     case "Empowerment":
@@ -143,8 +142,10 @@ const Home: NextPage = () => {
         <p className="mx-auto mt-12 max-w-xl text-lg leading-7 text-slate-900">
           <Balancer>
             Transform Your Life with{" "}
-            <span className="font-bold">BetterSelf's Words of Affirmation</span>
-            . Unleash the Power of Positive Words Today.
+            <span className="font-bold">
+              BetterSelf's AI-Powered Words of Affirmation.
+            </span>{" "}
+            Unleash the Power of Positive Words and Enhance Your Life Today.
           </Balancer>
         </p>
         <div className="max-w-xl w-full px-6">
@@ -190,7 +191,7 @@ const Home: NextPage = () => {
               onClick={(e) => generateVerse(e)}
               disabled={isDisabled()}
             >
-              Generate Affirmation &darr;
+              Generate Affirmations &rarr;
             </button>
           )}
           {loading && (
@@ -229,7 +230,7 @@ const Home: NextPage = () => {
                             className="bg-blue-100 rounded-xl shadow-md p-4 hover:bg-gray-100 hover:shadow-lg transition-all duration-300 ease-in-out transform hover:-translate-y-1 cursor-copy border"
                             onClick={() => {
                               navigator.clipboard.writeText(
-                                `${trimmedVerse} (generated from https://bible.betterself.app/)`
+                                `${trimmedVerse} (generated from https://affirmations.betterself.app/)`
                               );
                               toast("Words of Affirmation Copied!", {
                                 icon: "✂️",

@@ -10,7 +10,7 @@ module.exports = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/llegomark/affirmation",
+        destination: "https://github.com/llegomark/affirmations",
         permanent: false,
       },
       {
