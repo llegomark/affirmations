@@ -10,25 +10,34 @@ class MyDocument extends Document {
             name="description"
             content="Discover Wisdom & Comfort in the Word of God with BetterSelf - the cutting-edge virtual Bible. Get relevant verses from your preferred Bible with a click. Start exploring now!"
           />
-          <meta property="og:site_name" content="Discover Wisdom and Comfort in the Word of God - Better Self" />
+          <meta
+            property="og:site_name"
+            content="Discover Wisdom and Comfort in the Word of God - Better Self"
+          />
           <meta
             property="og:description"
             content="Discover Wisdom & Comfort in the Word of God with BetterSelf - the cutting-edge virtual Bible. Get relevant verses from your preferred Bible with a click. Start exploring now!"
           />
-          <meta property="og:title" content="Discover Wisdom and Comfort in the Word of God - Better Self" />
+          <meta
+            property="og:title"
+            content="Discover Wisdom and Comfort in the Word of God - Better Self"
+          />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Discover Wisdom and Comfort in the Word of God - Better Self" />
+          <meta
+            name="twitter:title"
+            content="Discover Wisdom and Comfort in the Word of God - Better Self"
+          />
           <meta
             name="twitter:description"
             content="Discover Wisdom & Comfort in the Word of God with BetterSelf - the cutting-edge virtual Bible. Get relevant verses from your preferred Bible with a click. Start exploring now!"
           />
           <meta
             property="og:image"
-            content="https://bible.betterself.app/betterself-featured.png"
+            content="https://bible.betterself.app/affirmation.png"
           />
           <meta
             name="twitter:image"
-            content="https://bible.betterself.app/betterself-featured.png"
+            content="https://bible.betterself.app/affirmation.png"
           />
         </Head>
         <body>

@@ -122,7 +122,7 @@ const Home: NextPage = () => {
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>
-          Empowering You with the Power of Positive Words - Better Self
+          Empowering You With the Power of Positive Words - BetterSelf
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -137,8 +137,11 @@ const Home: NextPage = () => {
           </span>
         </h2>
         <p className="mx-auto mt-12 max-w-xl text-lg leading-7 text-slate-900">
-          Transform Your Life with Positive Words: Uplift with{" "}
-          <span className="font-bold">Betterself's Affirmation Site.</span>{" "}
+          Welcome to Words of Affirmation by Betterself, a site powered by the
+          latest AI technology to bring you the power of positive words. Our
+          mission is to help people live better, happier lives by providing
+          daily inspiration and motivation through personalized words of
+          affirmation.
         </p>
         <div className="max-w-xl w-full px-6">
           <div className="flex mt-10 items-center space-x-3">
