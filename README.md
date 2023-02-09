@@ -1,6 +1,6 @@
 # BetterSelf
 
-Welcome to Words of Affirmation by Betterself, a site powered by the latest AI technology to bring you the power of positive words. Our mission is to help people live better, happier lives by providing daily inspiration and motivation through personalized words of affirmation.
+Welcome to Words of Affirmation, a site powered by the latest AI technology to bring you the power of positive words. Our mission is to help people live better, happier lives by providing daily inspiration and motivation through personalized words of affirmation.
 
 At Words of Affirmation by Betterself, we believe that words have the power to shape our thoughts and impact our emotions. That's why we've created a platform that delivers positive, uplifting messages directly to your inbox or phone, every day. Whether you're looking for a boost of confidence, a shot of inspiration, or just a reminder that you're capable of greatness, we've got you covered.
 
