@@ -13,7 +13,7 @@ export default function Header() {
           height={36}
         />
         <h1 className="ml-2 text-3xl font-bold tracking-tight sm:text-5xl">
-          betterself.app
+          affirmations
         </h1>
       </Link>
     </header>

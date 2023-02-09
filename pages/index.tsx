@@ -137,7 +137,7 @@ const Home: NextPage = () => {
           </span>
         </h2>
         <p className="mx-auto mt-12 max-w-xl text-lg leading-7 text-slate-900">
-          Welcome to Words of Affirmation by Betterself, a site powered by the
+          Welcome to Words of Affirmation, a site powered by the
           latest AI technology to bring you the power of positive words. Our
           mission is to help people live better, happier lives by providing
           daily inspiration and motivation through personalized words of
